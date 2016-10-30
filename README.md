@@ -8,7 +8,7 @@ It is designed to be **fast** and **fault-tolerant**.
 
 ```
 npm install
-npm start # server up at http://localhost:5566
+npm start // server up at http://localhost:5566
 ```
 
 For a custom port, use `HTML_TO_IMAGE_PORT=1234 npm start`.
