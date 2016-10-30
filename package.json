@@ -1,0 +1,26 @@
+{
+  "name": "htmltoimagewebservice",
+  "version": "0.0.0",
+  "description": "HTMLToImageWebService is a web service (built on top of PhantomJS) for rendering HTML as an image.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test/concurrency.js",
+    "start": "phantomjs server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collegepulse/HTMLToImageWebService.git"
+  },
+  "author": "Peter Mikitsh <peter.mikitsh@wyvrn.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collegepulse/HTMLToImageWebService/issues"
+  },
+  "homepage": "https://github.com/collegepulse/HTMLToImageWebService#readme",
+  "dependencies": {
+    "phantomjs-prebuilt": "2.1.13"
+  },
+  "devDependencies": {
+    "lodash": "4.16.4"
+  }
+}
